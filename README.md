@@ -9,14 +9,7 @@ Computer Network A Top-Down Approach Practice Answer
 
 ## 答案目录
 
-<b>
-第一章
-</b>
-<ul>
-<li>
-[复习题（Review Questions）答案](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%201%20Review%20Questions%20Answers.md)
-</li>
-<li>
-习题（Problems）答案 (未作)
-</li>
-</ul>
+#### 第一章
+* [复习题（Review Questions）答案](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%201%20Review%20Questions%20Answers.md)
+* 习题（Problems）答案 (未作)
+
