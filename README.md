@@ -8,6 +8,7 @@ Computer Network A Top-Down Approach Practice Answer
 * Wireshark实验和答案
 
 部分文件和翻译来源于：[moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
+(非本仓库)
 
 ## 答案目录
 
@@ -18,4 +19,4 @@ Computer Network A Top-Down Approach Practice Answer
   * [官方文档第六版 Wireshark_Intro_v6.0.pdf](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%201/Wireshark_Intro_v6.0.pdf)
   * [官方文档第七版 Wireshark_Intro_v7.0.pdf](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%201/Wireshark_Intro_v7.0.pdf)
   * [官方文档第六版 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/WiresharkLab/Wireshark%E5%AE%9E%E9%AA%8C-Intro/Wireshark%E5%AE%9E%E9%AA%8C-Intro.md)
-  作者:moranzcw(不在本仓库)
+  作者:moranzcw(非本仓库)
