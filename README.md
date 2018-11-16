@@ -25,6 +25,6 @@ Computer Network A Top-Down Approach Practice Answer
 #### 第二章 应用层
 
 * 复习题（Review Questions）题目和答案 (未作)
-* 习题（Problems）题目和答案 (未作
+* 习题（Problems）题目和答案 (未作)
 * 书正文中小实验
- * [2.2.3节 关于HTTP与报文与telnet的小实验 (课本Page72)](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%202/2.2.3%20HTTP%20telnet%20test/test%20answers.md)
+  * [2.2.3节 关于HTTP与报文与telnet的小实验 (课本Page72)](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%202/2.2.3%20HTTP%20telnet%20test/test%20answers.md)
