@@ -19,7 +19,7 @@ telnet连接时间非常短暂，大概几秒之后就会“遗失对主机的�
 
 ### 实验结果
 
-![Image text](https://github.com/jzplp/Computer-Network-A-Top-Down-Approach-Answer/blob/master/Chapter%202/2.2.3%20HTTP%20telnet%20test/test%20answer%20picture.png)
+![Image text](test%20answer%20picture.png)
 
 注意：<br>
 显示状态码为200 OK，并且有ross相关内容时才算成功。
