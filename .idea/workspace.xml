@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="907af93b-ffb8-4e5b-9b06-e62385e40ea1" name="Default Changelist" comment="" />
+    <list default="true" id="907af93b-ffb8-4e5b-9b06-e62385e40ea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="636" />
+          <entry key="md" value="640" />
           <entry key="tex" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="636" />
+          <entry key="Markdown" value="640" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -46,24 +49,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="40" lean-forward="true" selection-start-column="7" selection-end-column="40" />
+              <first_editor relative-caret-position="380">
+                <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="570">
-                <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <first_editor relative-caret-position="540">
+                <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/Chapter 2/2.2.3 HTTP telnet test/test answers.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="8" />
+              <first_editor relative-caret-position="418">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,8 +101,8 @@
         <option value="$PROJECT_DIR$/Chapter 2/2.2.3 HTTP telnet test/test answers.md" />
         <option value="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/1.tex" />
         <option value="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/1.md" />
-        <option value="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md" />
       </list>
     </option>
   </component>
@@ -176,7 +179,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="317" y="97" width="1440" height="854" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
@@ -221,11 +223,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 2/2.2.3 HTTP telnet test/test answers.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="8" />
+          <first_editor relative-caret-position="418">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -234,18 +246,8 @@
     <entry file="file://$PROJECT_DIR$/Chapter 2/2.4.1 2.4.3 SMTP telnet test/test answers.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="40" lean-forward="true" selection-start-column="7" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="570">
-            <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <first_editor relative-caret-position="380">
+            <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
