@@ -28,3 +28,4 @@ Computer Network A Top-Down Approach Practice Answer
 * 习题（Problems）题目和答案 (未作)
 * 书正文中小实验
   * [2.2.3节 关于HTTP与报文与telnet的小实验 (课本Page72)](Chapter%202/2.2.3%20HTTP%20telnet%20test/test%20answers.md)
+  * [2.4.1节 2.4.3节 关于SMTP报文与telnet的小实验 (课本Page83-84)](Chapter 2/2.4.1 2.4.3 SMTP telnet test)
