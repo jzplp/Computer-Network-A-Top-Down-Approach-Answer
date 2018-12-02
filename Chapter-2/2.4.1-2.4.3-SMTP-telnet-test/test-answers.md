@@ -21,7 +21,7 @@ STARTTLS auth login <br>
 返回：<br>
 220 Ready to start TLS<br>
 注意服务器可能因为请求过多，所以要输入很多次才可能成功，例如我这样：<br>
-![Image text](try%20many%20times.png) <br>
+![Image text](try-many-times.png) <br>
 可能需要尝试更多次才能成功。
 * 命令行 输入：<br>
 HELO .
