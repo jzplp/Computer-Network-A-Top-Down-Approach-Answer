@@ -1,14 +1,13 @@
 ﻿# Computer-Network-A-Top-Down-Approach-Answer
 Computer Network A Top-Down Approach Practice Answer
 
-
 计算机网络 自顶向下方法 第六版  
 * 课后题答案
 * 课文中实验答案
 * 编程作业和答案
 * Wireshark实验和答案
 
-部分文件和翻译来源于：
+部分文件和翻译来源：
 [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
 (非本仓库)
 
