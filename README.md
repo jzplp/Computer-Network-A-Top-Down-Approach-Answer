@@ -1,7 +1,7 @@
 ﻿# Computer-Network-A-Top-Down-Approach-Answer
 Computer Network A Top-Down Approach Practice Answer
 
-计算机网络 自顶向下方法 第六版  
+计算机网络 自顶向下方法 第六版  (中文版)
 * 课后题答案
 * 课文中实验答案
 * 编程作业和答案
@@ -11,6 +11,7 @@ Computer Network A Top-Down Approach Practice Answer
 [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
 (非本仓库)
 
+注：中文版与英文版不同的，一般按照中文版处理。
 ## 答案目录
 
 #### 第一章 计算机网络和因特网
