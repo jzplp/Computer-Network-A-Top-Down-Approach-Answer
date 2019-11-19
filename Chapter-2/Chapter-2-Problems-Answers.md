@@ -189,3 +189,326 @@ S: .
 C: QUIT
 S: +OK
 ```
+
+* **P18**  
+a.  
+whois数据库是用来查询域名是否被注册和注册域名详细信息的数据库。  
+b.  
+```
+whois baidu.com
+WHOIS Server: whois.markmonitor.com
+Name Server: ns4.baidu.com
+Name Server: ns1.baidu.com
+Name Server: ns3.baidu.com
+Name Server: ns7.baidu.com
+Name Server: ns2.baidu.com
+
+whois qq.com
+WHOIS Server: whois.markmonitor.com
+Name Server: ns1.qq.com
+Name Server: ns4.qq.com
+Name Server: ns2.qq.com
+Name Server: ns3.qq.com
+```
+c.  
+```
+nslookup
+默认服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+
+nslookup ns1.qq.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+名称:    ns1.qq.com
+Addresses:  183.3.226.207
+          101.89.19.165
+          157.255.246.101
+
+nslookup ns1.baidu.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+名称:    ns1.baidu.com
+Address:  202.108.22.220
+
+nslookup -qt=A qq.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+名称:    qq.com
+Addresses:  182.254.34.74
+          182.254.74.167
+          182.254.18.159
+
+nslookup -qt=NS qq.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+qq.com  nameserver = ns3.qq.com
+qq.com  nameserver = ns4.qq.com
+qq.com  nameserver = ns2.qq.com
+qq.com  nameserver = ns1.qq.com
+
+nslookup -qt=CNAME qq.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+qq.com
+        primary name server = ns1.qq.com
+        responsible mail addr = webmaster.qq.com
+        serial  = 1330914143
+        refresh = 3600 (1 hour)
+        retry   = 300 (5 mins)
+        expire  = 86400 (1 day)
+        default TTL = 300 (5 mins)
+
+nslookup -qt=MX qq.com
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+qq.com  MX preference = 10, mail exchanger = mx3.qq.com
+qq.com  MX preference = 20, mail exchanger = mx2.qq.com
+qq.com  MX preference = 30, mail exchanger = mx1.qq.com
+```
+
+d.  
+c中的qq.com就有多个IP地址  
+我所在的学校只有一个IP地址  
+```
+nslookup www.ecnu.edu.cn
+服务器:  moon.ecnu.edu.cn
+Address:  202.120.80.2
+非权威应答:
+名称:    imhttps.ecnu.edu.cn
+Address:  202.120.88.27
+Aliases:  www.ecnu.edu.cn
+```
+
+e.  
+```
+whois -s whois.arin.net 202.120.88.27
+WHOIS Server: whois.arin.net
+NetRange:       202.0.0.0 - 202.255.255.255
+CIDR:           202.0.0.0/8
+NetName:        APNIC-CIDR-BLK
+```
+
+f.  
+利用nslookup和whois数据库确定一个机构的具体信息，各类服务器的地址  
+
+g.  
+因为公众访问网络时，有权利了解网站的相关信息，而且方便用户注册域名或者IP  
+
+* **P19**  
+a.  
+```
+dig www.ecnu.edu.cn +trace
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> www.ecnu.edu.cn +trace
+;; global options: +cmd
+.			5	IN	NS	j.root-servers.net.
+.			5	IN	NS	b.root-servers.net.
+.			5	IN	NS	i.root-servers.net.
+.			5	IN	NS	f.root-servers.net.
+.			5	IN	NS	l.root-servers.net.
+.			5	IN	NS	c.root-servers.net.
+.			5	IN	NS	a.root-servers.net.
+.			5	IN	NS	g.root-servers.net.
+.			5	IN	NS	d.root-servers.net.
+.			5	IN	NS	m.root-servers.net.
+.			5	IN	NS	h.root-servers.net.
+.			5	IN	NS	k.root-servers.net.
+.			5	IN	NS	e.root-servers.net.
+;; Received 241 bytes from 127.0.1.1#53(127.0.1.1) in 3 ms
+
+cn.			172800	IN	NS	a.dns.cn.
+cn.			172800	IN	NS	b.dns.cn.
+cn.			172800	IN	NS	c.dns.cn.
+cn.			172800	IN	NS	d.dns.cn.
+cn.			172800	IN	NS	e.dns.cn.
+cn.			172800	IN	NS	f.dns.cn.
+cn.			172800	IN	NS	g.dns.cn.
+cn.			172800	IN	NS	ns.cernet.net.
+后面忽略
+;; Received 706 bytes from 198.97.190.53#53(h.root-servers.net) in 244 ms
+
+edu.cn.			172800	IN	NS	dns2.edu.cn.
+edu.cn.			172800	IN	NS	deneb.dfn.de.
+edu.cn.			172800	IN	NS	ns2.cernet.net.
+edu.cn.			172800	IN	NS	ns2.cuhk.hk.
+edu.cn.			172800	IN	NS	dns.edu.cn.
+后面忽略
+;; Received 494 bytes from 202.112.0.44#53(ns.cernet.net) in 43 ms
+
+ecnu.edu.cn.		172800	IN	NS	liwa.ecnu.edu.cn.
+ecnu.edu.cn.		172800	IN	NS	xiayu.ecnu.edu.cn.
+后面忽略
+;; Received 413 bytes from 137.189.6.21#53(ns2.cuhk.hk) in 54 ms
+
+www.ecnu.edu.cn.	3600	IN	CNAME	imhttps.ecnu.edu.cn.
+imhttps.ecnu.edu.cn.	3600	IN	A	202.120.88.27
+;; Received 82 bytes from 202.120.80.1#53(liwa.ecnu.edu.cn) in 4 ms
+```
+
+b.  
+```
+dig www.google.com +trace
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> www.google.com +trace
+;; global options: +cmd
+.			5	IN	NS	l.root-servers.net.
+.			5	IN	NS	c.root-servers.net.
+.			5	IN	NS	h.root-servers.net.
+.			5	IN	NS	a.root-servers.net.
+.			5	IN	NS	j.root-servers.net.
+.			5	IN	NS	g.root-servers.net.
+.			5	IN	NS	e.root-servers.net.
+.			5	IN	NS	b.root-servers.net.
+.			5	IN	NS	m.root-servers.net.
+.			5	IN	NS	i.root-servers.net.
+.			5	IN	NS	f.root-servers.net.
+.			5	IN	NS	d.root-servers.net.
+.			5	IN	NS	k.root-servers.net.
+;; Received 241 bytes from 127.0.1.1#53(127.0.1.1) in 3 ms
+
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+后面忽略
+;; Received 1174 bytes from 192.112.36.4#53(g.root-servers.net) in 13 ms
+
+www.google.com.		240	IN	A	69.171.224.85
+;; Received 59 bytes from 192.54.112.30#53(h.gtld-servers.net) in 29 ms
+
+dig www.yahoo.com +trace
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> www.yahoo.com +trace
+;; global options: +cmd
+.			5	IN	NS	h.root-servers.net.
+.			5	IN	NS	m.root-servers.net.
+.			5	IN	NS	e.root-servers.net.
+.			5	IN	NS	i.root-servers.net.
+.			5	IN	NS	k.root-servers.net.
+.			5	IN	NS	a.root-servers.net.
+.			5	IN	NS	l.root-servers.net.
+.			5	IN	NS	f.root-servers.net.
+.			5	IN	NS	c.root-servers.net.
+.			5	IN	NS	d.root-servers.net.
+.			5	IN	NS	j.root-servers.net.
+.			5	IN	NS	b.root-servers.net.
+.			5	IN	NS	g.root-servers.net.
+;; Received 241 bytes from 127.0.1.1#53(127.0.1.1) in 3 ms
+
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+后面忽略
+;; Received 1173 bytes from 199.7.91.13#53(d.root-servers.net) in 30 ms
+
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+yahoo.com.		172800	IN	NS	ns5.yahoo.com.
+yahoo.com.		172800	IN	NS	ns2.yahoo.com.
+yahoo.com.		172800	IN	NS	ns3.yahoo.com.
+yahoo.com.		172800	IN	NS	ns4.yahoo.com.
+后面忽略
+;; Received 845 bytes from 192.35.51.30#53(f.gtld-servers.net) in 224 ms
+
+www.yahoo.com.		1800	IN	CNAME	atsv2-fp-shed.wg1.b.yahoo.com.
+wg1.b.yahoo.com.	172800	IN	NS	yf1.yahoo.com.
+wg1.b.yahoo.com.	172800	IN	NS	yf2.yahoo.com.
+wg1.b.yahoo.com.	172800	IN	NS	yf3.a1.b.yahoo.net.
+wg1.b.yahoo.com.	172800	IN	NS	yf4.a1.b.yahoo.net.
+;; Received 194 bytes from 98.138.11.157#53(ns4.yahoo.com) in 261 ms
+
+dig www.amazon.com +trace
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> www.amazon.com +trace
+;; global options: +cmd
+.			5	IN	NS	a.root-servers.net.
+.			5	IN	NS	i.root-servers.net.
+.			5	IN	NS	e.root-servers.net.
+.			5	IN	NS	d.root-servers.net.
+.			5	IN	NS	l.root-servers.net.
+.			5	IN	NS	j.root-servers.net.
+.			5	IN	NS	g.root-servers.net.
+.			5	IN	NS	c.root-servers.net.
+.			5	IN	NS	h.root-servers.net.
+.			5	IN	NS	k.root-servers.net.
+.			5	IN	NS	m.root-servers.net.
+.			5	IN	NS	b.root-servers.net.
+.			5	IN	NS	f.root-servers.net.
+;; Received 241 bytes from 127.0.1.1#53(127.0.1.1) in 8 ms
+
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+后面忽略
+;; Received 1174 bytes from 199.9.14.201#53(b.root-servers.net) in 243 ms
+
+amazon.com.		172800	IN	NS	pdns1.ultradns.net.
+amazon.com.		172800	IN	NS	pdns6.ultradns.co.uk.
+amazon.com.		172800	IN	NS	ns1.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns3.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns2.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns4.p31.dynect.net.
+后面忽略
+;; Received 741 bytes from 192.35.51.30#53(f.gtld-servers.net) in 198 ms
+
+www.amazon.com.		1800	IN	CNAME	www.cdn.amazon.com.
+cdn.amazon.com.		900	IN	NS	ns-61.awsdns-07.com.
+cdn.amazon.com.		900	IN	NS	ns-1136.awsdns-14.org.
+cdn.amazon.com.		900	IN	NS	ns-1894.awsdns-44.co.uk.
+cdn.amazon.com.		900	IN	NS	ns-774.awsdns-32.net.
+;; Received 205 bytes from 204.74.108.1#53(pdns1.ultradns.net) in 254 ms
+```
+
+* **P20**  
+在不同的时间点多次采样缓存，看看缓存中哪些Web服务器出现的机率更大。
+
+* **P21**  
+不会。
+
+* **P22**  
+客户-服务器分发 
+
+|  | N = 10 | N = 100 | N = 1000 |
+| :---: | :---: | :---: | :---: |
+| u = 300kps | 7500 | 50000 | 500000 |
+| u = 700kps | 7500 | 50000 | 500000 |
+| u = 2Mkps | 7500 | 50000 | 500000 |
+
+P2P分发 
+
+|  | N = 10 | N = 100 | N = 1000 |
+| :---: | :---: | :---: | :---: |
+| u = 300kps | 7500 | 25000 | 45455 |
+| u = 700kps | 7500 | 15000 | 20548 |
+| u = 2Mkps | 7500 | 7500 | 7500 |
+
+* **P23**  
