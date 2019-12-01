@@ -40,6 +40,12 @@ Computer Network A Top-Down Approach Practice Answer
         * [作业答案](Chapter-2/Socket-Programming-Assignment-2/UDPPingerClient.py)  
         * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-2/UDPpingerClientStandard.py)  
         * 可选练习2答案: [客户端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatClient.py)  [服务器端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatServer.py)  
+    * 作业3： 邮件客户
+        * [官方文档 Socket3_SMTP.pdf](Chapter-2/Socket-Programming-Assignment-3/Socket3_SMTP.pdf) 
+        * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A3-%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF/%E4%BD%9C%E4%B8%9A3-%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF-%E7%BF%BB%E8%AF%91.md) 作者:moranzcw(非本仓库)  
+        * [作业答案](Chapter-2/Socket-Programming-Assignment-3/MailClient.py)  
+        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-3/MailSSLClient.py)  
+        * [可选练习2答案](Chapter-2/Socket-Programming-Assignment-3/MailTextPicClient.py)  
 * 书正文中小实验
   * [2.2.3节 关于HTTP报文与telnet的小实验 (课本Page72)](Chapter-2/2.2.3-HTTP-telnet-test/test-answers.md)
   * [2.4.1节 2.4.3节 关于SMTP报文与telnet的小实验 (课本Page83-84)](Chapter-2/2.4.1-2.4.3-SMTP-telnet-test/test-answers.md)
