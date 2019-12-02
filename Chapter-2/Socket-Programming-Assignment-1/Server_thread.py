@@ -6,8 +6,9 @@ def webProcess(connectionSocket):
     try:
         message = connectionSocket.recv(1024)
         filename = message.split()[1]
-        f = open(filename[1:])
+        f = open(filename[1:], "rb")
         outputdata = f.read()
+        outputdata = outputdata.decode()
         f.close()
         #Send one HTTP header line into socket
         outputdata = 'HTTP/1.1 200 OK\r\n\r\n' + outputdata
