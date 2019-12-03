@@ -226,8 +226,92 @@ Line-based text data: text/html (98 lines)
 
 ### 4.具有嵌入对象的HTML文档  
 
+* 实验图像
+![Image text](HTTPobject.png)  
 
+16. 您的浏览器发送了几个HTTP GET请求消息？ 这些GET请求发送到哪个IP地址？  
+3个HTTP GET请求消息。都发送到 128.119.245.12  
 
+17. 浏览器从两个网站串行还是并行下载了两张图片？请说明。  
+串行，因为有Connection: Keep-Alive
 
+### 5.HTTP认证
 
+* 实验图像
+![Image text](HTTPpass.png)  
+
+```
+    GET /wireshark-labs/protected_pages/HTTP-wireshark-file5.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html]
+    [HTTP request 1/1]
+    [Response in frame: 70]
+```
+
+```
+    HTTP/1.1 401 Unauthorized\r\n
+    Date: Tue, 03 Dec 2019 16:39:11 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    WWW-Authenticate: Basic realm="wireshark-students only"\r\n
+    Content-Length: 381\r\n
+        [Content length: 381]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.263216000 seconds]
+    [Request in frame: 66]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html]
+    File Data: 381 bytes
+```
+
+```
+    GET /wireshark-labs/protected_pages/HTTP-wireshark-file5.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html]
+    [HTTP request 1/1]
+    [Response in frame: 195]
+```
+
+```
+    HTTP/1.1 200 OK\r\n
+    Date: Tue, 03 Dec 2019 16:39:20 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Tue, 03 Dec 2019 06:59:03 GMT\r\n
+    ETag: "84-598c73b444ac9"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 132\r\n
+        [Content length: 132]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.266665000 seconds]
+    [Request in frame: 192]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html]
+    File Data: 132 bytes
+```
+
+18. 对于您的浏览器的初始HTTP GET消息，服务器响应（状态码和短语）是什么响应？  
+401 Unauthorized
+
+19. 当您的浏览器第二次发送HTTP GET消息时，HTTP GET消息中包含哪些新字段？  
+Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=
 
