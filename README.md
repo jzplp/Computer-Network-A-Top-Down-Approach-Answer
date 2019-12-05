@@ -57,10 +57,15 @@ Computer Network A Top-Down Approach Practice Answer
         * [官方文档第七版 Wireshark_HTTP_v7.0.pdf](Chapter-2/Wireshark_HTTP/Wireshark_HTTP_v7.0.pdf) 
         * [官方文档第六版 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/WiresharkLab/Wireshark%E5%AE%9E%E9%AA%8C-HTTP/Wireshark%E5%AE%9E%E9%AA%8C-HTTP.md) 作者:moranzcw(非本仓库)  
         * [Wireshark_HTTP 实验答案](Chapter-2/Wireshark_HTTP/Wireshark_HTTP-Answer.md) 
+    * Wireshark实验：DNS 
+        * [官方文档第六版 Wireshark_DNS_v6.01.pdf](Chapter-2/Wireshark_DNS/Wireshark_DNS_v6.01.pdf) 
+        * [官方文档第七版 Wireshark_DNS_v7.0.pdf](Chapter-2/Wireshark_DNS/Wireshark_DNS_v7.0.pdf) 
+        * [官方文档第六版 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/WiresharkLab/Wireshark%E5%AE%9E%E9%AA%8C-DNS/Wireshark%E5%AE%9E%E9%AA%8C-DNS.md) 作者:moranzcw(非本仓库) 
+        * [Wireshark_DNS 实验答案](Chapter-2/Wireshark_DNS/Wireshark_DNS-Answer.md) 
 * 书正文中小实验
-  * [2.2.3节 关于HTTP报文与telnet的小实验 (课本Page72)](Chapter-2/2.2.3-HTTP-telnet-test/test-answers.md)
-  * [2.4.1节 2.4.3节 关于SMTP报文与telnet的小实验 (课本Page83-84)](Chapter-2/2.4.1-2.4.3-SMTP-telnet-test/test-answers.md)
-  * [2.4.4节 关于POP3报文与telnet的小实验 (课本Page85-86)](Chapter-2/2.4.4-POP3-telnet-test/test-answers.md)
-  * [2.7.1节 关于UDP与socket的小实验 基于python3 (课本Page108-110)](Chapter-2/2.7.1-UDP-Socket-test)
-  * [2.7.2节 关于TCP与socket的小实验 基于python3 (课本Page112-114)](Chapter-2/2.7.2-TCP-Socket-test)
+  * [2.2.3节 关于HTTP报文与telnet的小实验 (课本Page72)](Chapter-2/2.2.3-HTTP-telnet-test/test-answers.md) 
+  * [2.4.1节 2.4.3节 关于SMTP报文与telnet的小实验 (课本Page83-84)](Chapter-2/2.4.1-2.4.3-SMTP-telnet-test/test-answers.md) 
+  * [2.4.4节 关于POP3报文与telnet的小实验 (课本Page85-86)](Chapter-2/2.4.4-POP3-telnet-test/test-answers.md) 
+  * [2.7.1节 关于UDP与socket的小实验 基于python3 (课本Page108-110)](Chapter-2/2.7.1-UDP-Socket-test) 
+  * [2.7.2节 关于TCP与socket的小实验 基于python3 (课本Page112-114)](Chapter-2/2.7.2-TCP-Socket-test) 
 
