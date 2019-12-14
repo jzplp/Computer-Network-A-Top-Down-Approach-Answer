@@ -7,10 +7,6 @@ Computer Network A Top-Down Approach Practice Answer
 * 编程作业和答案
 * Wireshark实验和答案
 
-部分文件和翻译来源：
-[moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
-(非本仓库)
-
 注：中文版与英文版不同的，一般按照中文版处理。
 ## 答案目录
 
@@ -73,4 +69,11 @@ Computer Network A Top-Down Approach Practice Answer
 * [复习题（Review Questions）题目和答案](Chapter-3/Chapter-3-Review-Questions-Answers.md)
 * [习题（Problems）题目和答案](Chapter-3/Chapter-3-Problems-Answers.md)
 * 书正文中小实验
-    * [3.5.6节 关于nmap的小实验 (课本Page173)](Chapter-3/3.5.6-nmap-test/test-answers.md)
+    * [3.5.6节 关于nmap的小实验 (课本Page173)](Chapter-3/3.5.6-nmap-test/test-answers.md) 
+
+
+## 部分文件和翻译来源  
+* [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
+《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答  
+* [http://gaia.cs.umass.edu/wireshark-labs/](http://gaia.cs.umass.edu/wireshark-labs/)  
+Supplements: Wireshark Labs
