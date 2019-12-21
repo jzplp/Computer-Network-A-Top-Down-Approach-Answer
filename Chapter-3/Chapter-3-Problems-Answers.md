@@ -201,7 +201,71 @@ EstimatedRT<sub>T2</sub> = 0.9<sup>2</sup> * EstimatedRT<sub>T0</sub> + 0.1 * 0.
 EstimatedRT<sub>T3</sub> = 0.9<sup>3</sup> * EstimatedRT<sub>T0</sub> + 0.1 * 0.9<sup>2</sup> * SampleRT<sub>T1</sub> + 0.1 * 0.9 * SampleRT<sub>T2</sub> + 0.1 * SampleRT<sub>T3</sub>  
 EstimatedRT<sub>T4</sub> = 0.9<sup>4</sup> * EstimatedRT<sub>T0</sub> + 0.1 * 0.9<sup>3</sup> * SampleRT<sub>T1</sub> + 0.1 * 0.9<sup>2</sup> * SampleRT<sub>T2</sub> + 0.1 * 0.9 * SampleRT<sub>T3</sub> + 0.1 * SampleRT<sub>T4</sub>  
 b.  
-$$ \[{\rm{EstimatedR}}{{\rm{T}}_{{\rm{Tn}}}} = {0.9^n}{\rm{EstimatedR}}{{\rm{T}}_{{\rm{T0}}}} + 0.1\sum\limits_{i = 1}^n {{\rm{0}}{\rm{.}}{{\rm{9}}^{\left( {n - i} \right)}}{\rm{EstimatedR}}{{\rm{T}}_{{\rm{Ti}}}}} \] $$  
-c. 
+![Image text](PA-P32/pic1.gif)   
+<!-- \[{\rm{EstimatedR}}{{\rm{T}}_{{\rm{Tn}}}} = {0.9^n}{\rm{EstimatedR}}{{\rm{T}}_{{\rm{T0}}}} + 0.1\sum\limits_{i = 1}^n {{\rm{0}}{\rm{.}}{{\rm{9}}^{\left( {n - i} \right)}}{\rm{EstimatedR}}{{\rm{T}}_{{\rm{Ti}}}}} \] -->   
+c. 当n趋于无穷时，离n越近的EstimatedRT的影响越大。  
 
 * **P33**  
+TCP估计正常时间的RTT，对于重传报文，可能并不是因为丢失而是单纯超时，如果重传报文发送后初始报文的ACK立即抵达，那么求得的RTT会比真实的RTT小很多。  
+
+* **P34**  
+两者之差是在网络传送中还未到达的字节数，包括损坏的，丢失的等等。  
+
+* **P35**  
+假设TCP接收方丢弃失序的报文段的场合：  
+在生成ACK的时间，y等于LastByteRcvd，当ACK报文传回发送方的时候，因为可能有新的报文到达接收方，所以y <= LastByteRcvd  
+
+* **P36**  
+如果收到一个冗余ACK旧快速重传，那么两个连续发送的报文，在反序到达时，就会发生重传情况。也就是说协议不允许非序到达报文。  
+因此这种设计是不良的。  
+
+* **P37**  
+a.   
+GBN协议：发送报文段9次，ACK8次  
+SR协议：发送报文段6次，ACK5次  
+TCP协议：发送报文段6次，ACK5次  
+b. TCP协议时间最短  
+
+* **P38**  
+正确。  
+
+* **P39**  
+对于图3-46b，λ<sub>out</sub>不能超过R/3。如果λ'<sub>in</sub>超过R/2，因为超过网络所能提供的速率，因此必然会发生更严重的丢包现象，因此λ<sub>out</sub>反而会降低。  
+对于图3-46c，如果假定平均转发两次是固定值，那么如果λ'<sub>in</sub>超过R/2，λ<sub>out</sub>能超过R/4。但是在实际情况中，如果λ'<sub>in</sub>超过R/2，丢包现象会增加，因此平均转发会超过两次，λ<sub>out</sub>会小于R/4。  
+
+* **P40**  
+a. 慢启动的时间为：1-6，23-26  
+b. 拥塞避免的时间为：6-16，17-22  
+c. 根据3个冗余ACK检测出来的  
+d. 根据超时检测出来的  
+e. 32  
+f. 21  
+g. 14  
+h. 7  
+i. 窗口长度为1，ssthresh为4  
+j. 窗口长度为4，ssthresh为21  
+k. 令j的假设成立，也就是16轮回时发生了快速重传，但是没有快速恢复的情况，与图中的折线不同。一共发送了52个分组。  
+
+* **P41**  
+![Image text](PA-P41/pic1.png)   
+如图所示，吞吐量将在B和C来回变动，不能收敛于平衡。 
+
+* **P42**  
+拥塞是解决的当前接收窗口很大，但是发送速率却不能很大的情况，这种情况超时时间加倍并不能解决。  
+
+* **P43**  
+如果不会发生丢失和定时器超时，那么拥塞控制便无法解决此类问题。可以使用类似流量控制的方法，控制发送方已发送未确认的字节数量小于接收缓存，且小于等于链路传输速率R的要求。比如小于等于R*RTT。
+
+* **P44**  
+a. 6RTT  
+b. 平均吞吐量8.5MSS  
+
+* **P45**  
+a.  
+假设是拥塞避免状态。一个周期发送的数据量从W/2变为W。  
+![Image text](PA-P45/pic1.gif)   
+b.  
+![Image text](PA-P45/pic2.gif)   
+
+* **P46**  
+
