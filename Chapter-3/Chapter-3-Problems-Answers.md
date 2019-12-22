@@ -342,4 +342,23 @@ n = log<sub>2</sub>(1 + α)
 因此，当log<sub>2</sub>(1 + α) * RTT时到达W，与吞吐量无关  
 
 * **P53**  
+![Image text](PA-P53/pic1.gif)   
+
+* **P54**  
+优点是安全，保险。  
+缺点是t<sub>1</sub>时刻因为发送方有大量数据要发送，因此拥塞窗口较小，但经过一段时间的空闲，可能链路中并不拥塞了（或者更加拥塞了），因此直接使用他们的值会有无法最大利用链路的问题。  
+可以在t<sub>2</sub>时刻使用慢启动，重新计算cwnd和ssthresh值。  
+
+* **P55**  
+a. 服务器将向Y发送响应  
+b. 可以确认，因为SYNACK是发送给Y的，X并不知道ACK应该发送什么。  
+
+* **P56**  
+网上答案：  
+RTT + RTT + S / R + RTT + S / R + RTT + 12S / R = 4·RTT + 14·S / R  
+RTT + RTT + S / R + RTT + S / R + RTT + S / R + RTT + 8S / R = 5·RTT + 11·S / R  
+RTT + RTT + S / R + RTT + 14S / R = 3·RTT + 15·S / R  
+答案来源：http://www.itkeyword.com/doc/5666652994854368779/determining-the-time-to-receive-in-object-using-tcp  
+我还是不太理解   
+
 
