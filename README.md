@@ -70,7 +70,16 @@ Computer Network A Top-Down Approach Practice Answer
 * [习题（Problems）题目和答案](Chapter-3/Chapter-3-Problems-Answers.md) 
 * 书正文中小实验
     * [3.5.6节 关于nmap的小实验 (课本Page173)](Chapter-3/3.5.6-nmap-test/test-answers.md) 
-
+* Wireshark实验 
+    * Wireshark实验：探究TCP 
+        * [官方文档第六版 Wireshark_TCP_v6.0.pdf](Chapter-3/Wireshark_TCP/Wireshark_TCP_v6.0.pdf) 
+        * [官方文档第七版 Wireshark_TCP_v7.0.pdf](Chapter-3/Wireshark_TCP/Wireshark_TCP_v7.0.pdf) 
+        * [官方文档第七版 翻译](Chapter-3/Wireshark_TCP/Wireshark_TCP_v7.0_Simplified_Chinese.pdf) 来源:moranzcw，贡献者：CHN-STUDENT 的老师  
+        * [Wireshark_TCP 实验答案](Chapter-3/Wireshark_TCP/Wireshark_TCP-Answer.md) 
+    * Wireshark实验：探究UDP 
+        * [官方文档第六版 Wireshark_UDP_v6.1.pdf](Chapter-3/Wireshark_UDP/Wireshark_UDP_v6.1.pdf) 
+        * [官方文档第七版 Wireshark_UDP_v7.0.pdf](Chapter-3/Wireshark_UDP/Wireshark_UDP_v7.0.pdf) 
+        * [官方文档第七版 翻译](Chapter-3/Wireshark_UDP/Wireshark_UDP_v7.0_Simplified_Chinese.pdf) 来源:moranzcw，贡献者：[CHN-STUDENT](https://github.com/chn-student)  
 
 ## 部分文件和翻译来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
