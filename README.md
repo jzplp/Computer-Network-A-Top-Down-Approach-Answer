@@ -82,6 +82,10 @@ Computer Network A Top-Down Approach Practice Answer
         * [官方文档第七版 翻译](Chapter-3/Wireshark_UDP/Wireshark_UDP_v7.0_Simplified_Chinese.pdf) 来源:moranzcw，贡献者：[CHN-STUDENT](https://github.com/chn-student)  
         * [Wireshark_UDP 实验答案](Chapter-3/Wireshark_UDP/Wireshark_UDP-Answer.md) 
 
+#### 第四章 网络层  
+* [复习题（Review Questions）题目和答案](Chapter-4/Chapter-4-Review-Questions-Answers.md) 
+* [习题（Problems）题目和答案](Chapter-4/Chapter-4-Problems-Answers.md) 
+
 ## 部分文件和翻译来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
 《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答  
