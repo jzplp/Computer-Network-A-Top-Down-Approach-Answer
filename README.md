@@ -92,6 +92,13 @@ Computer Network A Top-Down Approach Practice Answer
         * [作业答案](Chapter-4/Socket-Programming-Assignment-5/Ping_Client.py)  
         * [可选练习1答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandard.py)  
         * [可选练习2答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandardErr.py)  
+* Wireshark实验 
+    * Wireshark实验：IP 
+        * [官方文档第六版 Wireshark_IP_v6.0.pdf](Chapter-4/Wireshark_IP/Wireshark_IP_v6.0.pdf) 
+        * [官方文档第七版 Wireshark_IP_v7.0.pdf](Chapter-4/Wireshark_IP/Wireshark_IP_v7.0.pdf) 
+        * [官方文档第七版 翻译](Chapter-4/Wireshark_IP/Wireshark_IP_v7.0_Simplied_Chinese.pdf) 来源:moranzcw，贡献者：CHN-STUDENT 的老师 
+        * [Wireshark_TCP 实验答案](Chapter-4/Wireshark_IP/Wireshark_IP-Answer.md) 
+    
 ## 部分文件和翻译来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
 《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答  
