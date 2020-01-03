@@ -85,7 +85,13 @@ Computer Network A Top-Down Approach Practice Answer
 #### 第四章 网络层  
 * [复习题（Review Questions）题目和答案](Chapter-4/Chapter-4-Review-Questions-Answers.md) 
 * [习题（Problems）题目和答案](Chapter-4/Chapter-4-Problems-Answers.md) 
-
+* 套接字编程作业
+    * 作业5： ICMP ping
+        * [官方文档 Socket5_ICMPpinger.pdf](Chapter-4/Socket-Programming-Assignment-5/Socket5_ICMPpinger.pdf) 
+        * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A5-ICMPping%E7%A8%8B%E5%BA%8F/%E4%BD%9C%E4%B8%9A5-ICMPping%E7%A8%8B%E5%BA%8F-%E7%BF%BB%E8%AF%91.md) 作者:moranzcw(非本仓库)  
+        * [作业答案](Chapter-4/Socket-Programming-Assignment-5/Ping_Client.py)  
+        * [可选练习1答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandard.py)  
+        * [可选练习2答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandardErr.py)  
 ## 部分文件和翻译来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
 《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答  
