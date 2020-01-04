@@ -26,26 +26,22 @@ Computer Network A Top-Down Approach Practice Answer
         * [官方文档 Socket1_WebServer.pdf](Chapter-2/Socket-Programming-Assignment-1/Socket1_WebServer.pdf) 
         * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A1-Web%E6%9C%8D%E5%8A%A1%E5%99%A8/%E4%BD%9C%E4%B8%9A1-Web%E6%9C%8D%E5%8A%A1%E5%99%A8-%E7%BF%BB%E8%AF%91.md)  
         * [作业答案](Chapter-2/Socket-Programming-Assignment-1/Server.py)  
-        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-1/Server_thread.py)  
-        * [可选练习2答案](Chapter-2/Socket-Programming-Assignment-1/Client.py)  
+        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-1/Server_thread.py)  [可选练习2答案](Chapter-2/Socket-Programming-Assignment-1/Client.py)  
     * 作业2： UDP ping程序
         * [官方文档 Socket2_UDPpinger.pdf](Chapter-2/Socket-Programming-Assignment-2/Socket2_UDPpinger.pdf) 
         * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A2-UDPping%E7%A8%8B%E5%BA%8F/%E4%BD%9C%E4%B8%9A2-UDPping%E7%A8%8B%E5%BA%8F-%E7%BF%BB%E8%AF%91.md) 
         * [作业答案](Chapter-2/Socket-Programming-Assignment-2/UDPPingerClient.py)  
-        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-2/UDPpingerClientStandard.py)  
-        * 可选练习2答案: [客户端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatClient.py)  [服务器端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatServer.py)  
+        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-2/UDPpingerClientStandard.py)  可选练习2答案: [客户端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatClient.py)  [服务器端](Chapter-2/Socket-Programming-Assignment-2/UDPHeartbeatServer.py)  
     * 作业3： 邮件客户
         * [官方文档 Socket3_SMTP.pdf](Chapter-2/Socket-Programming-Assignment-3/Socket3_SMTP.pdf) 
         * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A3-%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF/%E4%BD%9C%E4%B8%9A3-%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF-%E7%BF%BB%E8%AF%91.md) 
         * [作业答案](Chapter-2/Socket-Programming-Assignment-3/MailClient.py)  
-        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-3/MailSSLClient.py)  
-        * [可选练习2答案](Chapter-2/Socket-Programming-Assignment-3/MailTextPicClient.py)  
+        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-3/MailSSLClient.py)  [可选练习2答案](Chapter-2/Socket-Programming-Assignment-3/MailTextPicClient.py)  
     * 作业4： 多线程Web代理服务器  
         * [官方文档 Socket4_ProxyServer.pdf](Chapter-2/Socket-Programming-Assignment-4/Socket4_ProxyServer.pdf) 
         * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A4-%E5%A4%9A%E7%BA%BF%E7%A8%8BWeb%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/%E4%BD%9C%E4%B8%9A4-%E5%A4%9A%E7%BA%BF%E7%A8%8BWeb%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8-%E7%BF%BB%E8%AF%91.md)   
         * [作业答案](Chapter-2/Socket-Programming-Assignment-4/ProxyServer.py)  
-        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-4/ProxyServer404.py)  
-        * [可选练习2答案](Chapter-2/Socket-Programming-Assignment-4/ProxyServerPost.py)  
+        * [可选练习1答案](Chapter-2/Socket-Programming-Assignment-4/ProxyServer404.py)  [可选练习2答案](Chapter-2/Socket-Programming-Assignment-4/ProxyServerPost.py)  
 * Wireshark实验 
     * Wireshark实验：HTTP 
         * 官方文档 [第六版](Chapter-2/Wireshark_HTTP/Wireshark_HTTP_v6.1.pdf) [第七版](Chapter-2/Wireshark_HTTP/Wireshark_HTTP_v7.0.pdf) 
@@ -85,8 +81,7 @@ Computer Network A Top-Down Approach Practice Answer
         * [官方文档 Socket5_ICMPpinger.pdf](Chapter-4/Socket-Programming-Assignment-5/Socket5_ICMPpinger.pdf) 
         * [官方文档 翻译](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES/blob/master/SocketProgrammingAssignment/%E4%BD%9C%E4%B8%9A5-ICMPping%E7%A8%8B%E5%BA%8F/%E4%BD%9C%E4%B8%9A5-ICMPping%E7%A8%8B%E5%BA%8F-%E7%BF%BB%E8%AF%91.md) 
         * [作业答案](Chapter-4/Socket-Programming-Assignment-5/Ping_Client.py)  
-        * [可选练习1答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandard.py)  
-        * [可选练习2答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandardErr.py)  
+        * [可选练习1答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandard.py)  [可选练习2答案](Chapter-4/Socket-Programming-Assignment-5/Ping_ClientStandardErr.py)  
 * Wireshark实验 
     * Wireshark实验：IP 
         * 官方文档 [第六版](Chapter-4/Wireshark_IP/Wireshark_IP_v6.0.pdf) [第七版](Chapter-4/Wireshark_IP/Wireshark_IP_v7.0.pdf) 
@@ -96,7 +91,10 @@ Computer Network A Top-Down Approach Practice Answer
         * 官方文档 [第六版](Chapter-4/Wireshark_ICMP/Wireshark_ICMP_v6.0.pdf) [第七版](Chapter-4/Wireshark_ICMP/Wireshark_ICMP_v7.0.pdf) 
         * [官方文档第七版 翻译](Chapter-4/Wireshark_ICMP/Wireshark_ICMP_v7.0_simpified_chinese.pdf) 
         * [Wireshark_ICMP 实验答案](Chapter-4/Wireshark_ICMP/Wireshark_ICMP-Answer.md) 
-    
+    * Wireshark实验：DHCP  
+        * 官方文档 [第六版](Chapter-4/Wireshark_DHCP/Wireshark_DHCP_v6.0.pdf) [第七版](Chapter-4/Wireshark_DHCP/Wireshark_DHCP_v7.0.pdf) 
+        * [官方文档第七版 翻译](Chapter-4/Wireshark_DHCP/Wireshark_DHCP_v7.0_Simplied_Chinese.pdf) 
+        * [Wireshark_DHCP 实验答案](Chapter-4/Wireshark_DHCP/Wireshark_DHCP-Answer.md) 
 ## 部分文件和翻译来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
 《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答  
