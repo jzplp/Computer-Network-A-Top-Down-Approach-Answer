@@ -97,7 +97,10 @@ Computer Network A Top-Down Approach Practice Answer
 #### 第六章 无线网络和移动网络  
 * [复习题（Review Questions）题目和答案](Chapter-6/Chapter-6-Review-Questions-Answers.md) 
 * [习题（Problems）题目和答案](Chapter-6/Chapter-6-Problems-Answers.md) 
-
+* Wireshark实验 
+    * Wireshark实验：802.11   
+        * 官方文档 [第六版](Chapter-6/Wireshark_802.11/Wireshark_802.11_v6.0.pdf) [第七版](Chapter-6/Wireshark_802.11/Wireshark_802.11_v7.0.pdf) [第七版翻译](Chapter-6/Wireshark_802.11/Wireshark_802.11_v7.0_Simplified_Chinese.pdf) 
+        * [Wireshark_Ethernet_ARP 实验答案](Chapter-6/Wireshark_802.11/Wireshark_802.11-Answer.md) 
 
 ## 部分文件来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
