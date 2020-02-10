@@ -102,6 +102,10 @@ Computer Network A Top-Down Approach Practice Answer
         * 官方文档 [第六版](Chapter-6/Wireshark_802.11/Wireshark_802.11_v6.0.pdf) [第七版](Chapter-6/Wireshark_802.11/Wireshark_802.11_v7.0.pdf) [第七版翻译](Chapter-6/Wireshark_802.11/Wireshark_802.11_v7.0_Simplified_Chinese.pdf) 
         * [Wireshark_Ethernet_ARP 实验答案](Chapter-6/Wireshark_802.11/Wireshark_802.11-Answer.md) 
 
+#### 第七章 多媒体网络  
+* [复习题（Review Questions）题目和答案](Chapter-7/Chapter-7-Review-Questions-Answers.md) 
+* [习题（Problems）题目和答案](Chapter-7/Chapter-7-Problems-Answers.md) 
+
 ## 部分文件来源  
 * [moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)  
 《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译  
